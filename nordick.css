@@ -1,0 +1,68 @@
+/* nordick.css */
+
+body {
+  background: linear-gradient(to bottom, #1c1b18, #2e2c28, #3b3935);
+  color: #f0eee6;
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.section-bg {
+  background: rgba(20, 18, 15, 0.85);
+  backdrop-filter: blur(4px);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  margin-bottom: 3rem;
+}
+
+img {
+  border-radius: 0.75rem;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+  max-width: 100%;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+button {
+  background: linear-gradient(135deg, #3e3b32, #1c1b18);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #444;
+  background-color: #222;
+  color: #f0eee6;
+  outline: none;
+}
+
+input:focus, textarea:focus {
+  border-color: #777;
+  box-shadow: 0 0 5px rgba(150,150,150,0.5);
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  color: #888;
+  font-size: 0.875rem;
+}
